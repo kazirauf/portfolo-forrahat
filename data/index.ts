@@ -205,13 +205,26 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/kazirauf",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/RaufElahi",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/kazi-rauf-elahi9876/",
+  },
+  {
+    id: 4,
+    img: "/facebook.png",
+    url: "https://www.facebook.com/webdevrauf",
+  },
+  {
+    id: 5,
+    img: "/youtube1.png",
+    url: "https://www.youtube.com/@kazirauf7726",
   },
 ];
