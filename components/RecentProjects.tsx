@@ -4,15 +4,16 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        MY PERSONAL
+        <span className="text-purple"> PROJECTS</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 p-4 gap-x-14 lg:gap-y-24 mt-10">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
@@ -24,7 +25,7 @@ const RecentProjects = () => {
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                  className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-center"
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
@@ -32,7 +33,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute  rounded-lg my-10"
                 />
               </div>
 
@@ -40,15 +41,17 @@ const RecentProjects = () => {
                 {item.title}
               </h1>
 
-              <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
-              >
-                {item.des}
-              </p>
+              <div>
+                <p
+                  className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                  style={{
+                    color: "#BEC1DD",
+                    margin: "1vh 0",
+                  }}
+                >
+                  {item.des}
+                </p>
+              </div>
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
@@ -64,12 +67,32 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
-
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+              </div>
+              <div className="flex items-center justify-between">
+                <Link
+                  href={`/myproject/${item.id}`}
+                  className="flex justify-center items-center"
+                >
+                  <p className="flex lg:text-xl md:text-xs text-sm text-purple ">
+                    Check Details
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                </Link>
+                <div className="flex items-center gap-5">
+                  <a target="_blank" href={item.link}>
+                    <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+                      <FaLocationArrow className="" color="#CBACF9" />
+                    </div>
+                  </a>
+                  <a target="_blank" href={item.githubClientLink}>
+                    <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 ">
+                      <img
+                        src={item.gitImg}
+                        alt="icons"
+                        width={20}
+                        height={20}
+                      />
+                    </div>
+                  </a>
                 </div>
               </div>
             </PinContainer>
