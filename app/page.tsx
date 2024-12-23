@@ -14,6 +14,7 @@ import Number from "@/components/Number";
 import AboutUs from "@/components/AboutUs";
 import Skills from "@/components/Skills";
 import Card from "@/components/Card";
+import Tools from "@/components/Tools";
 
 const Home = () => {
   return (

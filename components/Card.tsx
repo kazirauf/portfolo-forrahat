@@ -6,6 +6,7 @@ import w from "../public/skill/achiv/winner.jpg";
 import b from "../public/skill/achiv/1706763281215.jpeg";
 import React, { useState } from "react";
 import Image from "next/image";
+import { link } from "fs";
 
 const Card = () => {
   const [openCardId, setOpenCardId] = useState(1);
@@ -14,38 +15,44 @@ const Card = () => {
     {
       id: 1,
       title: "Complete Web Development Course Certificate",
-      bgClass: "from-blue-600 to-blue-900",
+      bgClass: "from-purple-600 to-pink-500",
       weight: 5,
       image: l1,
+      link: "https://drive.google.com/file/d/1blaKlqDB_OOvPINJnJtujcs7k5-AnX_L/view",
     },
     {
       id: 2,
-      title: "The Upside Down",
+      title: "Stellar Award Certificate",
       subtitle: "ENTER THE METAVERSE",
       bgClass: "from-purple-600 to-pink-500",
       weight: 4,
       image: l2,
+      link: "https://drive.google.com/file/d/17U08LHbMX8sYCG-CIlXar0ZJRhLnURZh/view?usp=sharing",
     },
     {
       id: 3,
-      title: "Winners of CodeforCareer season 2",
+      title: "Winners of CodeforCareer season 2 Certificate",
       bgClass: "from-purple-800 to-indigo-900",
       weight: 3,
       image: c,
+
+      link: "https://drive.google.com/file/d/1cTzjTpsfZVkbB0JMy6G5bBqREpGY91ri/view",
     },
     {
       id: 4,
       title: "Winners of CodeforCareer season 2 post",
-      bgClass: "from-blue-400 to-blue-600",
+      bgClass: "from-purple-600 to-pink-500",
       weight: 2,
       image: w,
+      link: "https://www.facebook.com/photo/?fbid=848244270683501&set=a.557327649775166",
     },
     {
       id: 5,
       title: "Black Belt",
-      bgClass: "from-blue-900 to-slate-900",
+      bgClass: "from-purple-600 to-pink-500",
       weight: 1,
       image: b,
+      link: "https://drive.google.com/file/d/1m5K1PXQaaiDA5s5W35sU8A2CqJadMXoM/view",
     },
   ].sort((a, b) => b.weight - a.weight);
 
@@ -57,7 +64,7 @@ const Card = () => {
     <div className="p-8">
       <div className="max-w-6xl mx-auto">
         <h1 className="heading mb-20">
-          MY <span className="text-purple">EXPERTISE</span>
+          MY <span className="text-purple"> ACHIEVEMENTS</span>
         </h1>
 
         <div className="flex justify-center gap-2 flex-wrap">
@@ -66,7 +73,7 @@ const Card = () => {
               key={world.id}
               className={`relative h-[500px] rounded-2xl overflow-hidden cursor-pointer 
               transition-all duration-500 ease-out
-              ${openCardId === world.id ? "w-[400px]" : "w-[100px]"}`}
+              ${openCardId === world.id ? "w-[500px]" : "w-[100px]"}`}
               onClick={() => handleCardClick(world.id)}
             >
               {/* Background Image */}
@@ -111,7 +118,7 @@ const Card = () => {
 
               {/* Expanded Content (shown when open) */}
               <div
-                className={`absolute bottom-0 left-0 right-0 p-6 z-30 bg-gradient-to-t from-black/80 to-transparent
+                className={`absolute bottom-0 left-0 right-0 p-6 z-30 bg-gradient-to-t from-black/100 to-transparent
                 ${
                   openCardId === world.id ? "opacity-100" : "opacity-0"
                 } transition-opacity duration-300`}
@@ -125,8 +132,15 @@ const Card = () => {
                   </div>
                 )}
                 <p className="text-white/90 text-sm">
-                  Click to explore more about {world.title} and discover the
-                  unique experiences it offers.
+                  <a
+                    href={world.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline text-red-400 font-bold"
+                  >
+                    Click to explore more about
+                  </a>{" "}
+                  {world.title} By (Programming Hero)
                 </p>
               </div>
             </div>

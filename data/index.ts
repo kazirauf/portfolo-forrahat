@@ -14,10 +14,19 @@ import redux from "../public/skill/13142323.png";
 import daisy from "../public/skill/76870092.png";
 import metarialui from "../public/skill/Material UI-icon-for-blog.jpg";
 import shadcnui from "../public/skill/139895814.png";
+import figma from "../public/figma.png";
+import notion from "../public/notion.png";
+import discord from "../public/discord.png";
+import slack from "../public/vscode.png";
+import photoshop from "../public/github.webp";
+import protopie from "../public/cnva.png";
+import framer from "../public/clickup.png";
+import raindrop from "../public/postman-icon.svg";
 import { link } from "fs";
 
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -417,21 +426,17 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I am pleased to recommend Kazi Rauf Elahi for his outstanding contributions as both a Graphic Designer and Digital Marketer. Kazi is a natural leader who brings creativity and fresh perspectives to every project, tackling challenges with energy and enthusiasm. His ability to communicate effectively with clients, coupled with his talent for organizing and motivating his team, has consistently led to successful project outcomes.Kazi possesses a unique combination of technical skill and people skills that make him a true asset. He approaches tasks with reliability and dedication, making him someone you can confidently entrust with important responsibilities. His passion for excellence and his drive to make a positive impact make him an invaluable member of any team.",
+    name: "Tarikul Sk",
+    title: "Founder and CEO @ Dr. Tech",
+    image: "./st.jpeg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I highly recommend Kazi Rauf Elahi for his exceptional work and dedication to excellence. His expertise in React.js is outstanding, and his projects consistently showcase creativity and innovation. Elahi is a hardworking professional who exceeds expectations in everything he does. He is passionate about learning and always brings fresh ideas to his work.In addition to his technical skills, he is a humble and kind individual. Despite his young age, his intelligence and maturity are impressive. Elahi’s work speaks for itself, and I am truly inspired by his commitment and growth.",
+    name: "Lucas Colalillo ",
+    title: "Co-Founder @ Frelo.dev",
+    image: "./1714598775265.jpeg",
   },
 ];
 
@@ -529,5 +534,80 @@ export const socialMedia = [
     id: 6,
     img: "/instra.svg",
     url: "https://www.instagram.com/kazirauf897/",
+  },
+];
+export const collabText =
+  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+export const collabContent = [
+  {
+    id: "0",
+    title: "Visual Studio Code – Code smarter, debug faster.",
+  },
+  {
+    id: "1",
+    title: "ClickUp – Manage tasks and projects effortlessly.",
+  },
+  {
+    id: "2",
+    title: "Figma – Design, prototype, and collaborate visually.",
+  },
+];
+
+export const collabApps = [
+  {
+    id: "0",
+    title: "Figma",
+    icon: figma,
+    width: 26,
+    height: 36,
+  },
+  {
+    id: "1",
+    title: "Notion",
+    icon: notion,
+    width: 34,
+    height: 36,
+  },
+  {
+    id: "2",
+    title: "Discord",
+    icon: discord,
+    width: 36,
+    height: 28,
+  },
+  {
+    id: "3",
+    title: "Slack",
+    icon: slack,
+    width: 34,
+    height: 35,
+  },
+  {
+    id: "4",
+    title: "Photoshop",
+    icon: photoshop,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "5",
+    title: "Protopie",
+    icon: protopie,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "6",
+    title: "Framer",
+    icon: framer,
+    width: 26,
+    height: 34,
+  },
+  {
+    id: "7",
+    title: "Raindrop",
+    icon: raindrop,
+    width: 38,
+    height: 32,
   },
 ];

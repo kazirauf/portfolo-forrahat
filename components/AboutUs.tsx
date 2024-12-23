@@ -1,15 +1,35 @@
 import { socialMedia } from "@/data";
-import img from "../public/aboutme.jpg";
+import img from "../public/skill/aboute.jpg";
 import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
+import { Button } from "./ui/MovingBorders";
 
 const AboutUs = () => {
   return (
-    <div className="flex justify-center items-center gap-20 mt-20 lg:mt-36 md:mt-20 mb-36">
-      <div>
-        <Image src={img} alt="rauf image" width={3700} height={2000} />
-      </div>
+    <div
+      id="about"
+      className="flex justify-center items-center gap-20 mt-20 lg:mt-36 md:mt-20 mb-36 "
+    >
+      <Button
+        //   random duration will be fun , I think , may be not
+        duration={Math.floor(Math.random() * 10000) + 10000}
+        borderRadius="1.75rem"
+        style={{
+          //   add these two
+          //   you can generate the color from here https://cssgradient.io/
+          background: "rgb(4,7,29)",
+          backgroundColor:
+            "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+          // add this border radius to make it more rounded so that the moving border is more realistic
+        }}
+        // remove bg-white dark:bg-slate-900
+        className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800 p-5"
+      >
+        <div className="">
+          <Image src={img} alt="rauf image" width={3700} height={2000} />
+        </div>
+      </Button>
 
       <div className=" border border-white/[0.1] group/bento hover:shadow-xl px-10 py-10">
         <h1 className="text-start text-xl md:text-2xl text-purple font-bold">

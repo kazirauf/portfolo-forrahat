@@ -15,6 +15,7 @@ import redux from "../public/skill/13142323.png";
 import daisy from "../public/skill/76870092.png";
 import metarialui from "../public/skill/Material UI-icon-for-blog.jpg";
 import shadcnui from "../public/skill/139895814.png";
+import Tools from "./Tools";
 const Skills = () => {
   const technologies = [
     {
@@ -101,7 +102,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="my-10">
+    <div id="skills" className="my-10">
       <h1 className="heading my-10">
         MY <span className="text-purple">SKILLS</span>
       </h1>
@@ -124,6 +125,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
+      <Tools />
     </div>
   );
 };
