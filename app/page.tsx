@@ -15,6 +15,7 @@ import AboutUs from "@/components/AboutUs";
 import Skills from "@/components/Skills";
 import Card from "@/components/Card";
 import Tools from "@/components/Tools";
+import Ex from "@/components/Ex";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
         <Experience />
         <Skills />
         <RecentProjects />
+        <Ex/>
         <Clients />
         <Card />
         <Approach />
