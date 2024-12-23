@@ -11,6 +11,7 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
+    image: string | undefined;
     quote: string;
     name: string;
     title: string;

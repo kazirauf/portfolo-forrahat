@@ -7,9 +7,9 @@ import b from "../public/skill/achiv/1706763281215.jpeg";
 import React, { useState } from "react";
 import Image from "next/image";
 import { link } from "fs";
-
 const Card = () => {
-  const [openCardId, setOpenCardId] = useState(1);
+  // Explicitly type state as `number | null`
+  const [openCardId, setOpenCardId] = useState<number | null>(1);
 
   const worlds = [
     {
@@ -35,7 +35,6 @@ const Card = () => {
       bgClass: "from-purple-800 to-indigo-900",
       weight: 3,
       image: c,
-
       link: "https://drive.google.com/file/d/1cTzjTpsfZVkbB0JMy6G5bBqREpGY91ri/view",
     },
     {

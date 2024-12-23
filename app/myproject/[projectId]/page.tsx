@@ -10,8 +10,11 @@ import MagicButton from "@/components/MagicButton";
 const ProjectDetails = () => {
   const { projectId } = useParams(); // Get the dynamic route parameter
 
+  // Ensure projectId is a string (handles cases where it's an array)
+  const id = Array.isArray(projectId) ? projectId[0] : projectId;
+
   // Find the project by id
-  const project = projects.find((item) => item.id === parseInt(projectId));
+  const project = projects.find((item) => item.id === parseInt(id, 10));
 
   if (!project) {
     return <div>Project not found or loading...</div>; // Show a fallback state
