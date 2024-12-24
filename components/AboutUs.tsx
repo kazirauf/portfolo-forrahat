@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <div
       id="about"
-      className="flex justify-center items-center gap-20 mt-20 lg:mt-36 md:mt-20 mb-36 "
+      className="lg:flex md:flex justify-center items-center gap-20 mt-20 lg:mt-36 md:mt-20 mb-36 "
     >
       <Button
         //   random duration will be fun , I think , may be not
@@ -31,11 +31,11 @@ const AboutUs = () => {
         </div>
       </Button>
 
-      <div className=" border border-white/[0.1] group/bento hover:shadow-xl px-10 py-10">
-        <h1 className="text-start text-xl md:text-2xl text-purple font-bold">
+      <div className=" border border-white/[0.1] group/bento hover:shadow-xl px-10 py-10 lg:mt-0 md:mt-0 mt-10">
+        <h1 className="text-start text-lg md:text-2xl text-purple font-bold">
           Driven Full Stack Web Developer
         </h1>
-        <p className="text-start text-white-100 mt-3 font-semibold mb-10">
+        <p className="text-start text-white-100 lg:text-sm md:text-sm text-xs mt-3 font-semibold lg:mb-10 md:mb-10 mb-5">
           Driven Full Stack Web Developer with 6 months of internship experience
           and 2 years of coding expertise, specializing in front-end
           technologies like React, JavaScript, and Tailwind CSS. Proficient in
@@ -46,7 +46,7 @@ const AboutUs = () => {
           diverse technologies, contributing to the success of innovative web
           development projects.
         </p>
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex flex-wrap items-center lg:gap-3 md:gap-3 gap-1 lg:mb-0 md:mb-0 mb-5">
           {socialMedia.map((info) => (
             <a target="_blank" key={info.id} href={info.url}>
               <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">

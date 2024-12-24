@@ -111,7 +111,7 @@ const Skills = () => {
           {technologies.map((tech) => (
             <button
               key={tech.name}
-              className={`flex items-center justify-center gap-2 px-7 py-4 rounded-lg transition-colors duration-200 border border-white/[0.1] group/bento hover:shadow-xl ${tech.color}`}
+              className={`flex items-center justify-center gap-2 lg:px-7 md:px-7 px-5 lg:py-4 md:py-4 py-3 rounded-lg transition-colors duration-200 border border-white/[0.1] group/bento hover:shadow-xl ${tech.color}`}
             >
               <Image
                 src={tech.icon}
@@ -120,7 +120,7 @@ const Skills = () => {
                 height={32}
                 className="w-6 h-6"
               />
-              <span className="text-lg font-medium">{tech.name}</span>
+              <span className="lg:text-lg md:text-lg text-xs font-medium">{tech.name}</span>
             </button>
           ))}
         </div>

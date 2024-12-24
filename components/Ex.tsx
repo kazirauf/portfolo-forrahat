@@ -2,6 +2,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import { Leaf } from "lucide-react";
+import { Button } from "./ui/MovingBorders";
 const Ex = () => {
   const timelineRef = useRef<HTMLUListElement>(null);
 
@@ -29,7 +30,7 @@ const Ex = () => {
         <h1 className="heading mb-20">
           WORK<span className="text-purple"> EXPERIENCE</span>
         </h1>
-        <div className="max-w-5xl mx-auto relative">
+        <div className="max-w-5xl mx-auto relative lg:flex justify-center hidden">
           <ul className="timeline" ref={timelineRef}>
             <li className="opacity-0">
               <div className="timeline-badge primary">
@@ -100,6 +101,88 @@ const Ex = () => {
               </div>
             </li>
           </ul>
+        </div>
+        <div className="lg:hidden flex-col ">
+           <Button
+                     
+                      //   random duration will be fun , I think , may be not
+                      duration={Math.floor(Math.random() * 10000) + 10000}
+                      borderRadius="1.75rem"
+                      style={{
+                        //   add these two
+                        //   you can generate the color from here https://cssgradient.io/
+                        background: "rgb(4,7,29)",
+                        backgroundColor:
+                          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                        // add this border radius to make it more rounded so that the moving border is more realistic
+                        borderRadius: `calc(1.75rem* 0.96)`,
+                      }}
+                      // remove bg-white dark:bg-slate-900
+                      className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800 mb-5"
+                    >
+                      <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 gap-2">
+                      
+                        <div className="lg:ms-5">
+                          <h1 className="text-start  md:text-2xl text-base font-bold">
+                          Graphic Designer and Digital Marketer (Full-Time)
+                          </h1>
+                          <ul className="space-y-1 text-white text-xs text-sm mb-5 text-start mt-3">
+                        <li className="text-purple font-bold">Dr. Tech</li>
+                        <li>Kolkata, West Bengal, India (Remote)</li>
+                        <li>October 2024 - October 2024</li>
+                      </ul>
+                          <p className="text-start md:text-sm text-xs text-white-100 mt-3 font-semibold">
+                          I am having a fantastic experience working at Dr.tech,
+                        where I have been learning so much about Graphic Design
+                        and Digital Marketing. The company is support has been
+                        incredible, and I am thrilled to be a part of such a
+                        dynamic and growth-oriented team. Excited to continue
+                        growing and contributing at Dr.tech
+                          </p>
+                        </div>
+                      </div>
+                    </Button>
+           <Button
+                     
+                      //   random duration will be fun , I think , may be not
+                      duration={Math.floor(Math.random() * 10000) + 10000}
+                      borderRadius="1.75rem"
+                      style={{
+                        //   add these two
+                        //   you can generate the color from here https://cssgradient.io/
+                        background: "rgb(4,7,29)",
+                        backgroundColor:
+                          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                        // add this border radius to make it more rounded so that the moving border is more realistic
+                        borderRadius: `calc(1.75rem* 0.96)`,
+                      }}
+                      // remove bg-white dark:bg-slate-900
+                      className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                    >
+                      <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
+                      
+                        <div className="lg:ms-5">
+                          <h1 className="text-start  md:text-2xl text-base font-bold">
+                          Full-stack Developer (Internship)
+                          </h1>
+                          <ul className="space-y-1 text-white text-xs text-sm mb-5 text-start mt-3">
+                        <li className="text-purple font-bold">IPO Money</li>
+                        <li>Jabalpur Cantonment, Madhya Pradesh, India</li>
+                        <li>December 2023 - May 2024</li>
+                      </ul>
+                          <p className="text-start md:text-sm text-xs text-white-100 mt-3 font-semibold">
+                          I learned a lot from this internship about acquiring new
+                        skills on the job and communicating effectively with
+                        colleagues. It was a challenging three months, as
+                        everything was new and I had to implement tasks I had
+                        never done before. Despite the difficulties, I managed
+                        to keep everything together and learned many new
+                        technologies, including Next.js. Overall, these three
+                        months were a valuable and enriching experience.
+                          </p>
+                        </div>
+                      </div>
+                    </Button>
         </div>
         <style jsx>{`
           .timeline {

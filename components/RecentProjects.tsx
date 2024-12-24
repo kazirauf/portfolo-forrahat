@@ -13,19 +13,21 @@ const RecentProjects = () => {
         MY PERSONAL
         <span className="text-purple"> PROJECTS</span>
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 p-4 gap-x-14 lg:gap-y-24 mt-10">
+  
+  <div className="flex justify-center">
+  <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 p-4 gap-x-14 lg:gap-y-24 md:gap-20 gap-y-[65px] mt-10">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] lg:mb-0 md:mb-10 mb-3"
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
+              title="KRE"
               href="https://twitter.com/mannupaaji"
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden md:mb-5 h-[20vh] lg:h-[30vh] mb-10">
                 <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-center"
+                  className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-center "
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
@@ -99,6 +101,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
+  </div>
     </div>
   );
 };
