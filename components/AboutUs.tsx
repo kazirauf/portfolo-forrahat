@@ -1,5 +1,5 @@
 import { socialMedia } from "@/data";
-import img from "../public/skill/aboute.jpg";
+import img from "../public/main-image.jpg";
 import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
@@ -36,15 +36,7 @@ const AboutUs = () => {
           Driven Full Stack Web Developer
         </h1>
         <p className="text-start text-white-100 lg:text-sm md:text-sm text-xs mt-3 font-semibold lg:mb-10 md:mb-10 mb-5">
-          Driven Full Stack Web Developer with 6 months of internship experience
-          and 2 years of coding expertise, specializing in front-end
-          technologies like React, JavaScript, and Tailwind CSS. Proficient in
-          HTML, CSS, JavaScript, React, Bootstrap, React JS, Firebase, MongoDB,
-          Express JS, TypeScript, Redux, and Next.js, with a commitment to
-          delivering high-quality, scalable solutions. Seeking opportunities to
-          apply my technical skills and continuously enhance my proficiency in
-          diverse technologies, contributing to the success of innovative web
-          development projects.
+        I’m a dedicated Full Stack Web Developer with two years of experience crafting high-level, modern, and fully responsive websites. Skilled in HTML, CSS (including Tailwind and Bootstrap), JavaScript, React.js, Next.js, and TypeScript on the frontend, and Node.js, Express.js, MongoDB, Firebase, and JWT on the backend, I thrive on transforming complex requirements into clean, efficient solutions. Passionate about keeping up with the latest web‑development trends, I focus on writing maintainable code, optimizing performance, and delivering exceptional user experiences in every project.
         </p>
         <div className="flex flex-wrap items-center lg:gap-3 md:gap-3 gap-1 lg:mb-0 md:mb-0 mb-5">
           {socialMedia.map((info) => (
@@ -55,7 +47,10 @@ const AboutUs = () => {
             </a>
           ))}
         </div>
-        <a href="raufelahi9876@gmail.com">
+        <a href="mailto:kazirahat9876@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple underline">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}

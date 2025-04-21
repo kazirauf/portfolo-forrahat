@@ -3,6 +3,9 @@
 import { useEffect, useRef } from "react";
 import { Leaf } from "lucide-react";
 import { Button } from "./ui/MovingBorders";
+import logo from "../public/ruet.jpeg"
+import logo2 from "../public/notordam.jpeg"
+import Image from "next/image";
 const Ex = () => {
   const timelineRef = useRef<HTMLUListElement>(null);
 
@@ -28,7 +31,7 @@ const Ex = () => {
     <div>
       <div className=" p-8">
         <h1 className="heading mb-20">
-          WORK<span className="text-purple"> EXPERIENCE</span>
+         <span className="text-purple">EDUCATION</span>
         </h1>
         <div className="max-w-5xl mx-auto relative lg:flex justify-center hidden">
           <ul className="timeline" ref={timelineRef}>
@@ -39,26 +42,23 @@ const Ex = () => {
               <div className="timeline-panel bg-[#12141F] rounded-[20px] p-6">
                 <div className="mb-4"></div>
                 <div className="flex gap-4">
-                  <div className="bg-gradient-to-r from-orange-500 to-blue-950  rounded-lg p-2 h-fit">
-                    <span className="text-2xl font-bold text-white">GD</span>
+                  <div className="bg-gradient-to-r  to-blue-950  rounded-lg p-2 h-fit">
+                   <Image src={logo} alt="ruet image" width={300} height={300} className="rounded-lg" />
                   </div>
                   <div>
                     <h2 className="timeline-title text-[22px] font-semibold text-white mb-4">
-                      Graphic Designer and Digital Marketer (Full-Time)
+                     
+                    Rajshahi University of Engineering & Technology
+
                     </h2>
                     <div className="timeline-body">
                       <ul className="space-y-1 text-white text-base font-bold  mb-10">
-                        <li className="text-purple">Dr. Tech</li>
-                        <li>Kolkata, West Bengal, India (Remote)</li>
-                        <li>October 2024 - October 2024</li>
+                        <li className="text-purple">BSc Engineering</li>
+                        <li>Jan 2022 - Dec 2025</li>
+                        <li>Rajshahi, Bangladesh</li>
                       </ul>
                       <p className="text-[#8A8F98] text-sm mt-3">
-                        I am having a fantastic experience working at Dr.tech,
-                        where I have been learning so much about Graphic Design
-                        and Digital Marketing. The company is support has been
-                        incredible, and I am thrilled to be a part of such a
-                        dynamic and growth-oriented team. Excited to continue
-                        growing and contributing at Dr.tech
+                      I am currently pursuing a BSc in Engineering at Rajshahi University of Engineering & Technology (RUET), Bangladesh. I began my studies in January 2022 and will complete my degree in December 2025. During these four years, I am gaining comprehensive knowledge and hands-on experience in engineering, preparing myself for a successful career in the field.
                       </p>
                     </div>
                   </div>
@@ -72,28 +72,27 @@ const Ex = () => {
               <div className="timeline-panel bg-[#12141F] rounded-[20px] p-6">
                 <div className="mb-4"></div>
                 <div className="flex gap-4">
-                <div className="bg-gradient-to-r from-violet-500 to-blue-950 rounded-lg p-2 h-fit">
-                    <span className="text-2xl font-bold text-white">WD</span>
+                <div className="bg-gradient-to-r  to-blue-950  rounded-lg p-2 h-fit">
+                   <Image src={logo2} alt="ruet image" width={400} height={400} className="rounded-lg" />
                   </div>
                   <div>
                     <h2 className="timeline-title text-[22px] font-semibold text-white mb-4">
-                      Full-stack Developer (Internship)
+                   
+
+                         Higher Secondary Certificate , Science
+
                     </h2>
                     <div className="timeline-body">
                       <ul className="space-y-1 text-white text-base font-bold  mb-10">
-                        <li className="text-purple">IPO Money</li>
-                        <li>Jabalpur Cantonment, Madhya Pradesh, India</li>
-                        <li>December 2023 - May 2024</li>
+                        <li className="text-purple">Notre Dame College</li>
+                        <li>Jun 2017 - Apr 2019</li>
+                        <li>Dhaka, Bangladesh</li>
                       </ul>
                       <p className="text-[#8A8F98] text-sm mt-3">
-                        I learned a lot from this internship about acquiring new
-                        skills on the job and communicating effectively with
-                        colleagues. It was a challenging three months, as
-                        everything was new and I had to implement tasks I had
-                        never done before. Despite the difficulties, I managed
-                        to keep everything together and learned many new
-                        technologies, including Next.js. Overall, these three
-                        months were a valuable and enriching experience.
+                      Grade: GPA 5 out of 5Grade: GPA 5 out of 5
+Activities and societies: Performed as a member of Notre Dame English Club
+& as an member of Notre Dame science club.Activities and societies: Performed as a member of Notre Dame English Club & as an member of Notre Dame science club.
+Notre Dame was the place where I began to dream big. It transformed my perspective on the world, teaching me the values of responsibility, punctuality, discipline, honesty, and passion.
                       </p>
                     </div>
                   </div>

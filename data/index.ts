@@ -151,8 +151,8 @@ export const projects = [
     ],
 
     link: "https://fandf-client.vercel.app/",
-    githubClientLink: "https://github.com/kazirauf/Fork-Flavor-Client-Side",
-    githubServerLink: "https://github.com/kazirauf/Fork-Flavor-Server-Side",
+    githubClientLink: "https://github.com/kazirahat89/Fork-Flavor-CSide",
+    githubServerLink: "https://github.com/kazirahat89/Fork-Flavor-SSide",
     gitImg: "/git.svg",
   },
   {
@@ -211,8 +211,8 @@ export const projects = [
     ],
 
     link: "https://kre-elite-sport-client.vercel.app/",
-    githubClientLink: "https://github.com/kazirauf/KRE-EliteSport-Client",
-    githubServerLink: "https://github.com/kazirauf/KRE-Elite-Sport-Backend",
+    githubClientLink: "https://github.com/kazirahat89/KRE-Elite-Sport-client",
+    githubServerLink: "https://github.com/kazirahat89/KRE-Elite-Sport-Backend",
     gitImg: "/git.svg",
   },
   {
@@ -271,156 +271,156 @@ export const projects = [
     ],
 
     link: "https://pure-planet-fdda8.web.app/",
-    githubClientLink: "https://github.com/kazirauf/pure-planet-client",
-    githubServerLink: "https://github.com/kazirauf/pure-planet-server",
+    githubClientLink: "https://github.com/kazirahat89/pure-planet-client",
+    githubServerLink: "https://github.com/kazirahat89/pure-planet-server",
     gitImg: "/git.svg",
   },
-  {
-    id: 4,
-    title: "Kre Survey Sync",
-    des: "Kre-Survey-Sync, where you unleash survey prowess, command payments for pro users, and dive into influential insights through comments and reports. Features",
-    img: "/skill/14new.png",
-    iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/skill/76870092.png",
-      "/skill/102 copy.png",
-      "/skill/mongodb_thumbnail.webp",
-      "/skill/1_R4c8lHBHuH5qyqOtZb3h-w.png",
-    ],
-    skills: [
-      {
-        name: "React",
-        color: "text-[#61DAFB] hover:bg-[#61DAFB]/10",
-        icon: react,
-      },
+  // {
+  //   id: 4,
+  //   title: "Kre Survey Sync",
+  //   des: "Kre-Survey-Sync, where you unleash survey prowess, command payments for pro users, and dive into influential insights through comments and reports. Features",
+  //   img: "/skill/14new.png",
+  //   iconLists: [
+  //     "/re.svg",
+  //     "/tail.svg",
+  //     "/skill/76870092.png",
+  //     "/skill/102 copy.png",
+  //     "/skill/mongodb_thumbnail.webp",
+  //     "/skill/1_R4c8lHBHuH5qyqOtZb3h-w.png",
+  //   ],
+  //   skills: [
+  //     {
+  //       name: "React",
+  //       color: "text-[#61DAFB] hover:bg-[#61DAFB]/10",
+  //       icon: react,
+  //     },
 
-      {
-        name: "Express",
-        color: "text-[#47A248] hover:bg-[#47A248]/10",
-        icon: express,
-      },
-      {
-        name: "MongoDB",
-        color: "text-[#47A248] hover:bg-[#47A248]/10",
-        icon: mongodb,
-      },
+  //     {
+  //       name: "Express",
+  //       color: "text-[#47A248] hover:bg-[#47A248]/10",
+  //       icon: express,
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "text-[#47A248] hover:bg-[#47A248]/10",
+  //       icon: mongodb,
+  //     },
 
-      {
-        name: "Tailwind",
-        color: "text-[#06B6D4] hover:bg-[#06B6D4]/10",
-        icon: tailwind,
-      },
+  //     {
+  //       name: "Tailwind",
+  //       color: "text-[#06B6D4] hover:bg-[#06B6D4]/10",
+  //       icon: tailwind,
+  //     },
 
-      {
-        name: "DaisyUI",
-        color: "text-[#1AD1A5] hover:bg-[#1AD1A5]/10",
-        icon: daisy,
-      },
-      {
-        name: "Firebase",
-        color: "text-[#FFCA28] hover:bg-[#FFCA28]/10",
-        icon: firebase,
-      },
-    ],
-    link: "https://kre-survey-sync.web.app/",
-    githubClientLink: "https://github.com/kazirauf/kre-survey-sync-client-side",
-    githubServerLink: "https://github.com/kazirauf/kre-survey-sync-server-side",
-    gitImg: "/git.svg",
-  },
-  {
-    id: 5,
-    title: "Luxe Market Pro",
-    des: "Experience the allure of Luxe-Market-Pro, where you not only post jobs but wield the power to select the ideal candidate. Navigate effortlessly as new users apply, turning each opportunity into a powerful hiring experience.",
-    img: "/skill/15new.png",
-    iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/skill/76870092.png",
-      "/skill/102 copy.png",
-      "/skill/mongodb_thumbnail.webp",
-      "/skill/1_R4c8lHBHuH5qyqOtZb3h-w.png",
-    ],
-    skills: [
-      {
-        name: "React",
-        color: "text-[#61DAFB] hover:bg-[#61DAFB]/10",
-        icon: react,
-      },
+  //     {
+  //       name: "DaisyUI",
+  //       color: "text-[#1AD1A5] hover:bg-[#1AD1A5]/10",
+  //       icon: daisy,
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "text-[#FFCA28] hover:bg-[#FFCA28]/10",
+  //       icon: firebase,
+  //     },
+  //   ],
+  //   link: "https://kre-survey-sync.web.app/",
+  //   githubClientLink: "https://github.com/kazirauf/kre-survey-sync-client-side",
+  //   githubServerLink: "https://github.com/kazirauf/kre-survey-sync-server-side",
+  //   gitImg: "/git.svg",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Luxe Market Pro",
+  //   des: "Experience the allure of Luxe-Market-Pro, where you not only post jobs but wield the power to select the ideal candidate. Navigate effortlessly as new users apply, turning each opportunity into a powerful hiring experience.",
+  //   img: "/skill/15new.png",
+  //   iconLists: [
+  //     "/re.svg",
+  //     "/tail.svg",
+  //     "/skill/76870092.png",
+  //     "/skill/102 copy.png",
+  //     "/skill/mongodb_thumbnail.webp",
+  //     "/skill/1_R4c8lHBHuH5qyqOtZb3h-w.png",
+  //   ],
+  //   skills: [
+  //     {
+  //       name: "React",
+  //       color: "text-[#61DAFB] hover:bg-[#61DAFB]/10",
+  //       icon: react,
+  //     },
 
-      {
-        name: "Express",
-        color: "text-[#47A248] hover:bg-[#47A248]/10",
-        icon: express,
-      },
-      {
-        name: "MongoDB",
-        color: "text-[#47A248] hover:bg-[#47A248]/10",
-        icon: mongodb,
-      },
+  //     {
+  //       name: "Express",
+  //       color: "text-[#47A248] hover:bg-[#47A248]/10",
+  //       icon: express,
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "text-[#47A248] hover:bg-[#47A248]/10",
+  //       icon: mongodb,
+  //     },
 
-      {
-        name: "Tailwind",
-        color: "text-[#06B6D4] hover:bg-[#06B6D4]/10",
-        icon: tailwind,
-      },
+  //     {
+  //       name: "Tailwind",
+  //       color: "text-[#06B6D4] hover:bg-[#06B6D4]/10",
+  //       icon: tailwind,
+  //     },
 
-      {
-        name: "DaisyUI",
-        color: "text-[#1AD1A5] hover:bg-[#1AD1A5]/10",
-        icon: daisy,
-      },
-      {
-        name: "Firebase",
-        color: "text-[#FFCA28] hover:bg-[#FFCA28]/10",
-        icon: firebase,
-      },
-    ],
-    link: "https://luxe-market-pro.web.app/",
-    githubClientLink:
-      "https://github.com/kazirauf/luxe-market-pro-cliient-side",
-    githubServerLink: "https://github.com/kazirauf/luxe-market-pro-server-side",
-    gitImg: "/git.svg",
-  },
-  {
-    id: 6,
-    title: "Birthday Enjoy",
-    des: "Birthday Enjoy is a robust platform aimed at enhancing the birthday celebration experience. With its event highlights on the homepage, responsive design, informative blog and tips section, and user-centric features like login and registration, it offers a comprehensive solution for users looking to make their birthdays memorable and stress-free.",
-    img: "/skill/16new.png",
-    iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/skill/76870092.png",
-      "/skill/1_R4c8lHBHuH5qyqOtZb3h-w.png",
-    ],
-    skills: [
-      {
-        name: "React",
-        color: "text-[#61DAFB] hover:bg-[#61DAFB]/10",
-        icon: react,
-      },
+  //     {
+  //       name: "DaisyUI",
+  //       color: "text-[#1AD1A5] hover:bg-[#1AD1A5]/10",
+  //       icon: daisy,
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "text-[#FFCA28] hover:bg-[#FFCA28]/10",
+  //       icon: firebase,
+  //     },
+  //   ],
+  //   link: "https://luxe-market-pro.web.app/",
+  //   githubClientLink:
+  //     "https://github.com/kazirauf/luxe-market-pro-cliient-side",
+  //   githubServerLink: "https://github.com/kazirauf/luxe-market-pro-server-side",
+  //   gitImg: "/git.svg",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Birthday Enjoy",
+  //   des: "Birthday Enjoy is a robust platform aimed at enhancing the birthday celebration experience. With its event highlights on the homepage, responsive design, informative blog and tips section, and user-centric features like login and registration, it offers a comprehensive solution for users looking to make their birthdays memorable and stress-free.",
+  //   img: "/skill/16new.png",
+  //   iconLists: [
+  //     "/re.svg",
+  //     "/tail.svg",
+  //     "/skill/76870092.png",
+  //     "/skill/1_R4c8lHBHuH5qyqOtZb3h-w.png",
+  //   ],
+  //   skills: [
+  //     {
+  //       name: "React",
+  //       color: "text-[#61DAFB] hover:bg-[#61DAFB]/10",
+  //       icon: react,
+  //     },
 
-      {
-        name: "Tailwind",
-        color: "text-[#06B6D4] hover:bg-[#06B6D4]/10",
-        icon: tailwind,
-      },
+  //     {
+  //       name: "Tailwind",
+  //       color: "text-[#06B6D4] hover:bg-[#06B6D4]/10",
+  //       icon: tailwind,
+  //     },
 
-      {
-        name: "DaisyUI",
-        color: "text-[#1AD1A5] hover:bg-[#1AD1A5]/10",
-        icon: daisy,
-      },
-      {
-        name: "Firebase",
-        color: "text-[#FFCA28] hover:bg-[#FFCA28]/10",
-        icon: firebase,
-      },
-    ],
-    link: "https://birthday-parties-events.web.app/",
-    githubClientLink: "https://birthday-parties-events.web.app/",
-    gitImg: "/git.svg",
-  },
+  //     {
+  //       name: "DaisyUI",
+  //       color: "text-[#1AD1A5] hover:bg-[#1AD1A5]/10",
+  //       icon: daisy,
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "text-[#FFCA28] hover:bg-[#FFCA28]/10",
+  //       icon: firebase,
+  //     },
+  //   ],
+  //   link: "https://birthday-parties-events.web.app/",
+  //   githubClientLink: "https://birthday-parties-events.web.app/",
+  //   gitImg: "/git.svg",
+  // },
 ];
 
 export const testimonials = [
@@ -508,33 +508,14 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/kazirauf",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-    url: "https://x.com/RaufElahi",
+    url: "https://github.com/kazirahat89",
   },
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/kazi-rauf-elahi9876/",
+    url: "https://www.linkedin.com/in/kazi-rahat-tasnim-939165325/",
   },
-  {
-    id: 4,
-    img: "/facebook.svg",
-    url: "https://www.facebook.com/webdevrauf",
-  },
-  {
-    id: 5,
-    img: "/youtube.svg",
-    url: "https://www.youtube.com/@kazirauf7726",
-  },
-  {
-    id: 6,
-    img: "/instra.svg",
-    url: "https://www.instagram.com/kazirauf897/",
-  },
+
 ];
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";

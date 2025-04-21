@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className=" pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -30,7 +30,7 @@ const Hero = () => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+        className="h-[600px] w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
@@ -49,25 +49,26 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
 
-          <TextGenerateEffect
-            words="Hi! I'm Kazi Rauf Elahi"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl font-extrabold"
-          />
+          <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl font-extrabold mb-4">Hi! I'm Kazi Rahat Tasnim</h1>
+           
+            
+         
 
           <p className="text-center md:tracking-wider mb-4 text-xs md:text-sm lg:text-xl w-2/3">
-            I&apos;m a Full Stack Developer with expertise in front-end
-            technologies such as{" "}
-            <span className="text-purple">React and Next.js.</span> I focus on
-            building modern, efficient, and user-friendly web applications.
-          </p>
+  I&apos;m a Full Stack Developer who loves crafting modern, user-friendly web apps using{" "}
+  <span className="text-purple">React and Next.js.</span> I focus on performance, usability, and clean code.
+</p>
+
+
 
           <a
-            href="https://drive.google.com/file/d/1lsOJAaEBCED8gsy6MDbr7Fmb9nICfOO_/view?usp=sharing"
+            href="mailto:kazirahat9876@gmail.com"
             target="_blank"
-            download="Resume"
+            rel="noopener noreferrer"
+            className="text-purple underline"
           >
             <MagicButton
-              title="Watch My Resume"
+              title="Contact with me"
               icon={<FaLocationArrow />}
               position="right"
             />

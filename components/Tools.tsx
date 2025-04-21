@@ -3,7 +3,7 @@ import { collabApps, collabContent, collabText } from "@/data";
 import { Button } from "./ui/MovingBorders";
 import curve1 from "../public/curve-1.svg";
 import curve2 from "../public/curve-2.svg";
-import me from "../public/me.jpg";
+import me from "../public/logo.jpeg";
 import check from "../public/check.svg";
 
 export const RightCurve = () => {
