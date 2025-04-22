@@ -423,22 +423,22 @@ export const projects = [
   // },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "I am pleased to recommend Kazi Rauf Elahi for his outstanding contributions as both a Graphic Designer and Digital Marketer. Kazi is a natural leader who brings creativity and fresh perspectives to every project, tackling challenges with energy and enthusiasm. His ability to communicate effectively with clients, coupled with his talent for organizing and motivating his team, has consistently led to successful project outcomes.Kazi possesses a unique combination of technical skill and people skills that make him a true asset. He approaches tasks with reliability and dedication, making him someone you can confidently entrust with important responsibilities. His passion for excellence and his drive to make a positive impact make him an invaluable member of any team.",
-    name: "Tarikul Sk",
-    title: "Founder and CEO @ Dr. Tech",
-    image: "./st.jpeg",
-  },
-  {
-    quote:
-      "I highly recommend Kazi Rauf Elahi for his exceptional work and dedication to excellence. His expertise in React.js is outstanding, and his projects consistently showcase creativity and innovation. Elahi is a hardworking professional who exceeds expectations in everything he does. He is passionate about learning and always brings fresh ideas to his work.In addition to his technical skills, he is a humble and kind individual. Despite his young age, his intelligence and maturity are impressive. Elahi’s work speaks for itself, and I am truly inspired by his commitment and growth.",
-    name: "Lucas Colalillo ",
-    title: "Co-Founder @ Frelo.dev",
-    image: "./1714598775265.jpeg",
-  },
-];
+// export const testimonials = [
+//   {
+//     quote:
+//       "I am pleased to recommend Kazi Rauf Elahi for his outstanding contributions as both a Graphic Designer and Digital Marketer. Kazi is a natural leader who brings creativity and fresh perspectives to every project, tackling challenges with energy and enthusiasm. His ability to communicate effectively with clients, coupled with his talent for organizing and motivating his team, has consistently led to successful project outcomes.Kazi possesses a unique combination of technical skill and people skills that make him a true asset. He approaches tasks with reliability and dedication, making him someone you can confidently entrust with important responsibilities. His passion for excellence and his drive to make a positive impact make him an invaluable member of any team.",
+//     name: "Tarikul Sk",
+//     title: "Founder and CEO @ Dr. Tech",
+//     image: "./st.jpeg",
+//   },
+//   {
+//     quote:
+//       "I highly recommend Kazi Rauf Elahi for his exceptional work and dedication to excellence. His expertise in React.js is outstanding, and his projects consistently showcase creativity and innovation. Elahi is a hardworking professional who exceeds expectations in everything he does. He is passionate about learning and always brings fresh ideas to his work.In addition to his technical skills, he is a humble and kind individual. Despite his young age, his intelligence and maturity are impressive. Elahi’s work speaks for itself, and I am truly inspired by his commitment and growth.",
+//     name: "Lucas Colalillo ",
+//     title: "Co-Founder @ Frelo.dev",
+//     image: "./1714598775265.jpeg",
+//   },
+// ];
 
 export const companies = [
   {
